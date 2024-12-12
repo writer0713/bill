@@ -1,5 +1,6 @@
 import { getAllBillionaires } from '@/app/actions/fetch-actions';
 import Card from './card';
+import { Billionaire } from '@/app/types/billionaire.type';
 
 export default async function Cards() {
   const billionaires = (await getAllBillionaires()).filter(

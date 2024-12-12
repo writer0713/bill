@@ -1,4 +1,4 @@
-interface BillionaireDetails {
+export interface BillionaireDetails {
   id: string;
   state: string;
   city: string;
@@ -14,7 +14,7 @@ interface BillionaireDetails {
   netWorth: number;
 }
 
-interface financialAsset {
+export interface financialAsset {
   exchange: string;
   ticker: string;
   companyName: string;

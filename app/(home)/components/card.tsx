@@ -1,3 +1,4 @@
+import { Billionaire } from '@/app/types/billionaire.type';
 import { shimmer, toBase64 } from '@/app/utils/image-util';
 import Image from 'next/image';
 import Link from 'next/link';

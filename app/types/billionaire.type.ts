@@ -1,4 +1,4 @@
-interface Billionaire {
+export interface Billionaire {
   id: string;
   name: string;
   squareImage: string;

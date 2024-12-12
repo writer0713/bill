@@ -1,4 +1,8 @@
 import { getBillionarieDetails } from '@/app/actions/fetch-actions';
+import {
+  BillionaireDetails,
+  financialAsset,
+} from '@/app/types/billionaire-details.type';
 import Image from 'next/image';
 
 export default async function PersonPage({
